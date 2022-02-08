@@ -17,7 +17,7 @@
 	String msg=request.getParameter("msg");
 	//콘솔에 출력해 보기
 	System.out.println(msg);
-%>    
+    
 
 <!DOCTYPE html>
 <html>
