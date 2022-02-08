@@ -9,6 +9,7 @@
 	list.add("로또를 사면 3등에 당첨 될거에요");
 	list.add("이상형을 만나게 될거에요");
 	list.add("뜻밖의 횡제를 합니다");
+
 	list.add("물건을 잃어버려요 조심하세요");
 %>
 <!DOCTYPE html>
@@ -25,3 +26,25 @@
 <p>오늘의 운세: <%=list.get(ranNum) %></p>
 </body>
 </html>
+=======
+	list.add("물건을 읽어 버려요 조심하세요");
+%>    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>/fortune2.jsp</title>
+</head>
+<body>
+<%
+	Random ran=new Random();
+	int ranNum=ran.nextInt(5);
+%>
+<p>오늘의 운세 : <%=list.get(ranNum) %></p>
+</body>
+</html>
+
+
+
+
+
