@@ -10,6 +10,9 @@
 <title>친구 목록</title>
 </head>
 <body>
+<div class="container">
+   <h1>회원 목록 입니다.</h1>
+
    <%
    List<MemberDto> list=new ArrayList<MemberDto>();
    list.add(new MemberDto(1, "김구라", "노량진"));
@@ -35,5 +38,6 @@
          <%} %>
       </tbody>
    </table>
+</div>
 </body>
 </html>
