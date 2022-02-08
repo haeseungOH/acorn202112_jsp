@@ -26,23 +26,8 @@
 <p>오늘의 운세: <%=list.get(ranNum) %></p>
 </body>
 </html>
-=======
-	list.add("물건을 읽어 버려요 조심하세요");
-%>    
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>/fortune2.jsp</title>
-</head>
-<body>
-<%
-	Random ran=new Random();
-	int ranNum=ran.nextInt(5);
-%>
-<p>오늘의 운세 : <%=list.get(ranNum) %></p>
-</body>
-</html>
+
+
 
 
 
